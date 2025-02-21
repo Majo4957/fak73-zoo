@@ -19,7 +19,7 @@ app.route("/sales", routerSales);
 serve(
   {
     fetch: app.fetch,
-    port: 3000,
+    port: 8080,
   },
   (info) => {
     console.log(`Server is running on http://${info.address}:${info.port}`);
